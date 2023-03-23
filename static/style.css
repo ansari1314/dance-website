@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chewy&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+#logo{
+    display: flex;
+    color: white;
+    align-items: center;
+    margin: 0px 75px 0px 16px;
+    font-family: 'Fredoka One', cursive;
+}
+#logo img{
+    height: 30px;
+    filter: invert(1);
+}
+/* STYLE FOR NAVBAR */
+#navbar{
+    background-image: linear-gradient(  to bottom,rgb(94, 19, 255),#000314);
+    padding: 15px 15px  ;
+}
+
+#navbar ul{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    align-items: center;
+}
+#navbar li{
+    list-style: none;
+}
+
+#navbar li a{
+    text-decoration: none;
+    padding :10px 25px;
+    color:rgb(255, 255, 255);
+    /* font-weight: bold; */
+    font-family: 'Fredoka One', cursive;
+}
+
+#navbar li a:hover{
+    color: rgb(121, 119, 128);
+}
+#navbar li a:active{
+    color: rgb(121, 119, 128);
+    text-decoration: dashed;
+}
+
+/* STYLE FOR INTRO SECTION */
+#introSection{
+    padding-top: 250px;
+    font-family: 'Fredoka One', cursive;
+    font-size: 28px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 350px;
+    background-color: red;
+    background: center / cover no-repeat url(/static/img/dance4.webp);
+    color:#ffffff;
+}
+
+.div1{
+    /* margin-top: 250px; */
+}
+.div2{
+    padding-top: 13px;
+    font-size: 24px;
+    font-family: 'Chewy', cursive;
+}
+
+/* STYLE FOR MISSION SECTION */
+#missionSection{
+    height: 250px;
+    background-color: rgb(255, 255, 255);
+    width: 80%;
+    margin: auto;
+    /* display: block; */
+    /* background-image: linear-gradient(  to top,rgb(94, 19, 255),#000314); */
+
+}
+
+#missionSection h2{
+    text-align: center;
+    padding-top: 12px;
+    font-family: 'Chewy', cursive;
+}
+.card{
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    width: 27%;
+    margin: 20px 27px;
+    height: 170px;
+    display: inline-block;
+    
+}
+.card h3{
+    text-align: center;
+    margin: 10px;
+}
+
+.card-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card-img{
+    height: 115px;
+    padding: 0 8px;
+    margin: 6px 5px;
+}
+.card-img img{
+    height: inherit;
+}
+
+.card-content{
+    padding: 0 10px;
+}
+
+.card-content p{
+    font-size: 19px;
+}
+/* STYLE FOR SPONSOR SECTION */
+#sponsorsSection{
+    height: 300px;
+    background-color: yellow;
+}
+#sponsorsSection h2{
+    text-align: center;
+    padding-top: 18px;
+    font-family: 'Fredoka One', cursive;
+}
+
+#sponsors{
+    height: 120px;
+    max-width: 1000px;
+    margin: 27px auto;
+}
+
+.spImage{
+    height: 80%;
+    margin: 35px;
+}
+
+/* STYLE FOR FOOTER SECTION */
+#footer{
+    background-color: black;
+    color: white;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
